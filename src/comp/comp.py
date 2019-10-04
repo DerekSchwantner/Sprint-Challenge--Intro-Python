@@ -42,7 +42,7 @@ print(b)
 # whose name starts with any letter between 'C' and 'G' inclusive.
 print("Starts between C and G, inclusive:")
 c = []
-letters = ["D", "E", "F"]
+letters = ["C","D", "E", "F", "G"]
 for person in humans:
     if person.name[0] in letters:
         c.append(person.name)
@@ -69,7 +69,7 @@ print(e)
 print("Names and ages between 27 and 32:")
 f = []
 for person in humans:
-    if person.age > 27 and person.age < 32:
+    if person.age > 26 and person.age < 33:
         f.append((person.name, person.age))
 print(f)
 
